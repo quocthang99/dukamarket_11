@@ -1,0 +1,51 @@
+@import "../mixi.less";
+@import "../base.less";
+
+
+.banner-image-content{
+    .flex;
+    gap: 20px;
+    img{
+        .img;
+    }
+    .img-content-banner{
+        position: relative;
+        .content-banner{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 60px;
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 1.7;
+                margin-bottom: 24px;
+            }
+            p{
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+}
+.featured-products{
+    .flex;
+    gap: 20px;
+    .items-featured-products{
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            .img;
+        }
+        .items{
+            width: calc(100%/3 - 20px);
+        }
+    }
+}
