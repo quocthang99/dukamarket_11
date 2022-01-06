@@ -1,152 +1,154 @@
-@import "../mixi.less";
-@import "../base.less";
+// @import "../mixi.less";
+// @import "../base.less";
 
-.super-deal-countdown{
-    .flex;
-    a{
-        color: @black;
-        font-size: 16px;
-        font-weight: 600
-    }
-    .scountdown{
-        .flex;
-        background: #cc1414;
-        padding: 9px 17px;
-        gap: 20px;
-        margin-left: 20px;
-        .number{
-            color: @white;
-            font-weight: 500;
-            font-size: 16px;
-        }
-        .text{
-            color: rgba(255, 255, 255, .8);
-            font-size: 11px;
-        }
-    }
-}
-.item-product-product-item{
-    .flex;
-    gap: 20px;
-}
-.product-item-info{
-    background: @white;
-    .flex;
-    position: relative;
-    padding: 4rem 9% 2rem 3rem;
-    border-radius: 30px;
-    a{
-    padding-right: 1.5rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    max-width: 46%;
-    width: 46%;
+// .super-deal-countdown{
+//     .flex;
+//     a{
+//         color: @black;
+//         font-size: 16px;
+//         font-weight: 600
+//     }
+//     .scountdown{
+//         .flex;
+//         background: #cc1414;
+//         padding: 9px 17px;
+//         gap: 20px;
+//         margin-left: 20px;
+//         .number{
+//             color: @white;
+//             font-weight: 500;
+//             font-size: 16px;
+//         }
+//         .text{
+//             color: rgba(255, 255, 255, .8);
+//             font-size: 11px;
+//         }
+//     }
+// }
+// .item-product-product-item{
+//     .flex;
+//     gap: 20px;
+// }
+// .product-item-info{
+//     background: @white;
+//     .flex;
+//     position: relative;
+//     padding: 4rem 9% 2rem 3rem;
+//     border-radius: 30px;
+//     a{
+//     padding-right: 1.5rem;
+//     padding-bottom: 0;
+//     margin-bottom: 0;
+//     max-width: 46%;
+//     width: 46%;
 
-    img{
-        .img;
-    }
+//     img{
+//         .img;
+//     }
     
-    }
-    .product-label{
-        position: absolute;
-        .value{
-            background: #5aab19;
-            padding: 0 5px;
-            color: #fff;
-            margin-bottom: 3px;
-        }
-        .hot{
-            background:#cc1414;
-            padding: 0 5px;
-            color: #fff;
-        }
-        span{
-            display: block;
-            text-align: center;
-        }
-    }
-    .product-item-details{
-        .flex;
-        flex-direction: column;
-        justify-content: center;
-        .product-item-link{
-            color: #0068c9;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 14px;
-            white-space: nowrap;
-            margin-bottom: 4px;
-        }
-        i{
-            display: block;
-            font-size: 12px;
-            color: #999999;
-            margin-bottom: 14px;
-        }
-        i::before{
-            content: '\ea02' '\ea02' '\ea02' '\ea02' '\ea02';
-            font-family: 'icon-dukamarket' !important;
-            color: #f90;
-            font-size: 14px;
-        }
-        .special-price{
-            margin-bottom: 26px;
-            .sale-price{
-                color: #cc1414;
-                font-weight: 600;
-                margin-right: 10px;
-            }
-            .price{
-                text-decoration: line-through;
-                color: #666;
-            }
-        }
-        .des{
-            margin-bottom: 22px;
-            li{
-                font-size: 14px;
-                color: #747474;
-            }
-        }
-        .product-sold{
-            margin-bottom: 16px;
-            .ruler-sold{
-                background: #ebebeb;
-                width: 83%;
-                height: 7px;
-                position: relative;
-                border-radius: 20px;
-                margin-bottom: 10px;
-                .ruler-sold-count{
-                    background: #cc1414;
-                    width: 83%;
-                    position: absolute;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    bottom: 0;
-                    right: 0;
-                    border-radius: 20px;
-                }
-            }
-            .count-sold{
-                font-size: 14px;
-                color: #666;
-            }
-        }
-        .product-item-inner{
-            .submit{
-                background: #16bcdc;
-                padding: 11px 90px;
-                border: 0 solid #16bcdc;
-                border-radius: 20px;
-                color: #fff;
-                text-transform: uppercase;
-                font-weight: 500;
-            }
-            .submit:hover{
-                background: #0c97b1;
-            }
-        }
-    }
-}
+//     }
+//     .product-label{
+//         position: absolute;
+//         .value{
+//             background: #5aab19;
+//             padding: 0 5px;
+//             color: #fff;
+//             margin-bottom: 3px;
+//             border-radius: 3px;
+//         }
+//         .hot{
+//             background:#cc1414;
+//             padding: 0 5px;
+//             color: #fff;
+//             border-radius: 3px;
+//         }
+//         span{
+//             display: block;
+//             text-align: center;
+//         }
+//     }
+//     .product-item-details{
+//         .flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         .product-item-link{
+//             color: #0068c9;
+//             text-decoration: none;
+//             font-weight: 500;
+//             font-size: 14px;
+//             white-space: nowrap;
+//             margin-bottom: 4px;
+//         }
+//         i{
+//             display: block;
+//             font-size: 12px;
+//             color: #999999;
+//             margin-bottom: 14px;
+//         }
+//         i::before{
+//             content: '\ea02' '\ea02' '\ea02' '\ea02' '\ea02';
+//             font-family: 'icon-dukamarket' !important;
+//             color: #f90;
+//             font-size: 14px;
+//         }
+//         .special-price{
+//             margin-bottom: 26px;
+//             .sale-price{
+//                 color: #cc1414;
+//                 font-weight: 600;
+//                 margin-right: 10px;
+//             }
+//             .price{
+//                 text-decoration: line-through;
+//                 color: #666;
+//             }
+//         }
+//         .des{
+//             margin-bottom: 22px;
+//             li{
+//                 font-size: 14px;
+//                 color: #747474;
+//             }
+//         }
+//         .product-sold{
+//             margin-bottom: 16px;
+//             .ruler-sold{
+//                 background: #ebebeb;
+//                 width: 83%;
+//                 height: 7px;
+//                 position: relative;
+//                 border-radius: 20px;
+//                 margin-bottom: 10px;
+//                 .ruler-sold-count{
+//                     background: #cc1414;
+//                     width: 83%;
+//                     position: absolute;
+//                     position: absolute;
+//                     top: 0;
+//                     left: 0;
+//                     bottom: 0;
+//                     right: 0;
+//                     border-radius: 20px;
+//                 }
+//             }
+//             .count-sold{
+//                 font-size: 14px;
+//                 color: #666;
+//             }
+//         }
+//         .product-item-inner{
+//             .submit{
+//                 background: #16bcdc;
+//                 padding: 11px 90px;
+//                 border: 0 solid #16bcdc;
+//                 border-radius: 20px;
+//                 color: #fff;
+//                 text-transform: uppercase;
+//                 font-weight: 500;
+//             }
+//             .submit:hover{
+//                 background: #0c97b1;
+//             }
+//         }
+//     }
+// }
